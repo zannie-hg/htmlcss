@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff8ee;
+  /* position: relative; */
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(197, 3, 3);
+  color: white;
+  /* margin-bottom: 3px; */
+}
+.header i {
+  padding-left: 80px;
+}
+.register {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 1300px;
+}
+
+
+.menu {
+    color: #2A435D;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  margin-bottom: 3px;
+}
+.logo1 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.nav-item {
+  margin-left: 20px;
+  padding-left:30px;
+  font-family: "Roboto";
+  font-size: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo2 {
+    width: 80px;
+  padding-left: 30px;
+font-size:50px;
+  padding-top: 10px;
+}
+.btn-login {
+  background-color: rgb(197, 3, 3);
+  color: #fff8ee;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  width: 85px;
+  height: 35px;
+  margin-left: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.slide-top{
+  margin-bottom: 0;
+display: flex;
+    margin-top: 0;
+    padding-top: 0px;
+    width: 100%;
+    height: 500px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    font-size: 45px;
+    padding-top: 15px ;
+    height: 330px;
+}
+.anh1{
+    width: 500px;
+    height: 380px;
+    padding-left: 100px;
+}
+.btn-order{
+    font-size: 35px;
+    padding: 13px;
+    border-radius: 10px;
+    background-color: rgb(197, 3, 3);
+    border: none;
+    color:#fff8ee;
+    
+}
+.btn-content{
+    position: absolute;
+    bottom: 300px;
+    left: 380px;
+
+}
+.icon{
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  /* padding-left: 20px; */
+  top:600px;
+  letter-spacing: 20px;
+}
+.food-item{
+    text-align: center;
+    font-family: 'Roboto';
+}
+.image-dishes{
+    letter-spacing: 20px;
+    padding-top: 20px;
+}
+.rich-healthy{
+    margin-top: 80px;
+    /* text-align: center; */
+    font-family: 'Roboto';
+    font-size: 25px;
+    padding-left: 450px;
+    
+}
+.healthy1{
+    position: absolute;
+    left: 80px;
+    top: 910px;
+}
+.healthy2{
+    position: absolute;
+    right: 80px;
+    top: 1200px;
+}
+.btn-reade{
+  margin-top: 150px;
+  margin-right: 300px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  text-align: center;
+    font-size: 35px;
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(197, 3, 3);
+    border: none;
+    color:#fff8ee;
+
+}
+/* .iconngoisao{
+    position: absolute;
+    left: 480px;
+    top: 1100px;
+} */
+/* .ngoisao
+{
+  display: flex;
+  flex-direction: column ;
+  width: 40px;
+  
+} */
+.rich-content{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.row-ngoisao{
+  display: flex;
+}
+.specials-content{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.table-menu{
+  text-align: center;
+}
+.btn-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/* margin-bottom: 20px; */
+}
+.btn-BREAKFAST{
+  border-top-width: 0;
+  border-bottom-width: 0;
+  background-color: rgb(197, 3, 3);
+  font-size: 2em;
+
+  color:#ffffff;
+  border-color: #aeb6bf;
+  width: 243px;
+  height: 60px;
+}
+.btn-LUNCH{
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  font-size: 2em;
+  padding: 0.5em 1em;
+  color:rgb(197, 3, 3);
+  border-color: #aeb6bf;
+  width: 243px;
+  height: 60px;
+
+}
+.btn-DINNER{
+  border-top-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  font-size: 2em;
+  padding: 0.5em 1em;
+  color:rgb(197, 3, 3);
+  height: 60px;
+  width: 243px;
+  border-color: #aeb6bf;
+}
+.btn-STARTERS{
+  border-top-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  font-size: 2em;
+  padding: 0.5em 1em;
+  color:rgb(197, 3, 3);
+  height: 60px;
+  width: 243px;
+  border-color: #aeb6bf;
+}
+.btn-BEVERAGES{
+  border-top-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  font-size: 2em;
+  padding: 0.5em 1em;
+  color:rgb(197, 3, 3);
+  height: 60px;
+  width: 243px;
+  border-color: #aeb6bf;
+}
